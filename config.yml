@@ -1,0 +1,19 @@
+title: Learn Numpy
+description: >-
+  NumPy brings the computational power of languages like C and Fortran to
+  Python, a language much easier to learn and use. With this power comes
+  simplicity: a solution in NumPy is often clear and elegant.
+template:
+  repo: learn-numpy-template
+  name: learn-numpy
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
